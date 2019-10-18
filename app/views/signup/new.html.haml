@@ -1,0 +1,16 @@
+%h1 Add new signup
+
+= form_for :signup, url: signup_path do
+    
+    %p
+    = label :signup,  'Please enter your name'
+    %br
+    = text_field :signup, 'name'
+    
+    %p
+    = label :signup, 'Please enter your email'
+    %br
+    = text_field :signup, 'email'
+
+    %br
+    = submit_tag 'Submit', :class => 'btn btn-primary'
