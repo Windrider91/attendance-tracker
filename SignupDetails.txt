@@ -1,2 +1,4 @@
 {:plain=>"{\"name\"=>\"James Moore\", \"email\"=>\"jmooreiii@tamu.edu\"}"}
 {:plain=>"{\"name\"=>\"Jimmy Moore\", \"email\"=>\"windrider91@hotmail.com\"}"}
+{:plain=>"{\"name\"=>\"James Moore\", \"email\"=>\"jmooreiii@tamu.edu\"}"}
+{:plain=>"{\"name\"=>\"Peter Parker\", \"email\"=>\"notspiderman@starkindustries.com\"}"}
