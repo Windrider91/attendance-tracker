@@ -16,7 +16,10 @@ class SignupController < ApplicationController
        render plain: params[:signup].inspect 
        
        file = File.open("SignupDetails.txt", "a")
-       file.puts plain: params[:signup].inspect
+       #line = name + "," + email + "\n"
+	   
+	   file.puts plain: params[:signup].inspect
+	   #file.puts line
        file.close
     end
 end
